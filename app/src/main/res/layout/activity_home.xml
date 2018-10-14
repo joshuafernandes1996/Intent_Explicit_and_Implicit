@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/al_back"
+    tools:context=".home">
+
+    <Button
+        android:id="@+id/implicit"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="230dp"
+        android:text="EXPLICIT"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/explicit"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/implicit"
+        android:layout_centerHorizontal="true"
+        android:text="IMPLICIT"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="155dp"
+        android:text="INTENT SHARE TYPE"
+        android:textColor="#c7c7c7"
+        android:textSize="30sp" />
+</RelativeLayout>
